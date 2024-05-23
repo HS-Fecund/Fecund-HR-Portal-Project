@@ -16,7 +16,7 @@ const localhost = '//localhost:27017/';
 const databaseName = 'FecundHiringPortal';
 const databaseURL = localhost.concat("",databaseName)
 server_PORT = 4000
-client_PORT = "http://localhost:3000"
+client_PORT = "https://fecund-hr-portal-project.vercel.app"
 
 module.exports.databaseURL = databaseURL;
 module.exports.localhost = localhost;
