@@ -30,7 +30,7 @@ const app = express()
     
 
 //middleware
-app.use(cors({ origin: client_port , credentials: true}))
+app.use(cors({ origin: client_port ,methods: ["POST","GET"], credentials: true}))
 app.use(express.json())
 
 app.use((req, res, next) => {
